@@ -1,0 +1,27 @@
+<input id="id1"><br>
+<br>
+<input id="id2">
+<button onclick="vls()">add</button>
+<p id="id3">result</p>
+
+<script>
+var bale1 =document.getElementById("id1")
+var bale2 =document.getElementById("id2")
+
+var bale3 = document.getElementById("id3")
+
+var bale1value = Number(bale1.value)
+var bale2value = Number(bale2.value)
+
+var total =bale1value+bale2value
+function vls()
+{
+
+var bale1value = Number(bale1.value)
+var bale2value = Number(bale2.value)
+
+   bale3.textContent=total
+}
+
+
+</script>
